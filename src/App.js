@@ -116,7 +116,7 @@ function App() {
           WPM: {wpm} | ACC: {accuracy}%
         </h3>
         <Link
-          href='https://github.com/Sayed24'
+          href='https://github.com/Sayed24/Typing'
           target='_blank'
         >
           Github
