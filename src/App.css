@@ -2,7 +2,14 @@
   text-align: center;
 }
 
-.App-logo {
+body {
+  background-image:
+  linear-gradient(to bottom, rgba(204, 224, 28, 0.89), rgba(19, 19, 18, 0.87)),
+  url('./img/typeImg.jpg');
+  background-size: cover;
+}
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +42,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

@@ -3,15 +3,15 @@ import { createFakeWords } from './utils/words';
 import { useKeyDown } from './hooks/useKeyDown';
 import styled from 'styled-components';
 import { getCurrentTime } from './utils/time';
+// import bgImg from './img/typeImg.jpg';
 
-import logo from './logo.svg';
 import './App.css';
 
 const initialWords = createFakeWords();
 
 // Build our styled components
 const Header = styled.header`
-  background-color: #282c34;
+  // background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -104,7 +104,7 @@ function App() {
   return (
     <div className='App'>
       <Header>
-        <img src={logo} className='App-logo' alt='logo' />
+        {/* <img src={bgImg} className='App-logo' alt='logo' /> */}
         <Characters>
           <CharacterOut>
             {(leftPadding + outgoingChars).slice(-20)}
